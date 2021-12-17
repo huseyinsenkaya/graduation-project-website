@@ -1,0 +1,45 @@
+.about {
+  background-color: $bodyColor;
+  border-radius: 0.5rem;
+  &__img {
+    width: 700px;
+    justify-self: center;
+    align-self: center;
+  }
+  &__data {
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+    p {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    ul {
+      li {
+        margin-bottom: 20px;
+        p {
+          margin-bottom: 5px;
+        }
+        p:last-child {
+          font-size: 13px;
+          color: $textColorLight;
+          font-style: italic;
+        }
+      }
+    }
+  }
+  &__buttons {
+    display: flex;
+    justify-content: center;
+
+    a {
+      background-color: $textColor;
+      color: $firstColor;
+      border: 1px solid $firstColor;
+      &:hover {
+        background-color: $firstColor;
+        color: $textColor;
+      }
+    }
+  }
+}

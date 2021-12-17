@@ -1,0 +1,70 @@
+// ====================== FONTS =============================
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+$headerHeight:3rem;
+// ====================== COLORS =============================
+
+//Light
+$firstColor: #8c52ff;
+$secondColor: #EAF6DE;
+$titleColor: #EAF6DE;
+$textColor:#EAF6DE;
+$textColorLight: #ae8af5;
+$inputColor: #EAF6DE;
+$bodyColor: #220660;
+$containerColor: #013870;
+$scrollBarColor: hsl(240, 14%, 93%);
+$scrollThumbColor: hsl(240, 2%, 57%);
+
+//Dark
+$bodyColorDark: hsl(240, 28%, 12%);
+$textColorDark: hsl(250, 8%, 75%);
+$titleColorDark: hsl(250, 8%, 95%);
+$scrollBarColorDark: hsl(240, 49%, 7%);
+$scrollThumbColorDark: hsl(240, 2%, 25%);
+// $secondColor: hsl(182, 30%, 17%)!important;
+// $inputColor: hsl(59, 29%, 16%)!important;
+// $containerColor: hsl(182, 29%, 16%)!important;
+
+// ====================== FONTS =============================
+$bodyFont: "Poppins", sans-serif;
+
+// ====================== FONT SIZE =============================
+$largerFontSize:2.5rem;
+$bigFontSize: 2rem;
+$h1FontSize: 1.5rem;
+$h2FontSize: 1.25rem;
+$h3FontSize: 1.125rem;
+$normalFontSize: 0.938rem;
+$smallFontSize: 0.813rem;
+$smallerFontSize: 0.75rem;
+
+// ====================== FONT WEIGHT =============================
+$fontMedium: 500;
+$fontSemiBold: 600;
+
+// ====================== MARGINES BOTTOM =============================
+$mb-0-25: 0.25rem;
+$mb-0-5: 0.5rem;
+$mb-0-75: 0.75rem;
+$mb-0-1: 1rem;
+$mb-1-5: 1.5rem;
+$mb-2: 2rem;
+$mb-2-5: 2.5rem;
+$mb-3: 3rem;
+
+// ====================== Z-INDEX =============================
+$z-tooltip: 10;
+$z-fixed: 100;
+$z-modal: 100;
+
+//Font size for large devices
+@media screen and (min-width: 968px) {
+  $bigFontSize: 3rem;
+  $h1FontSize: 2.25rem;
+  $h2FontSize: 1.5rem;
+  $h3FontSize: 1.25rem;
+  $normalFontSize: 1rem;
+  $smallFontSize: .875rem;
+  $smallerFontSize: .813rem;
+}

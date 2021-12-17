@@ -1,0 +1,51 @@
+.contact {
+    background-color: $bodyColor;
+    border-radius: .5rem;
+    &__container {
+        row-gap: 3rem;
+    }
+
+    &__information {
+        display: flex;
+        margin-bottom: 2rem;
+        i {
+            font-size: $mb-2;
+            color: $firstColor;
+            margin-right: $mb-0-75;
+            width: 2rem;
+            text-align: center;
+            align-self: center;
+            
+        }
+        h3 {
+            font-size: $h3FontSize;
+            font-weight: $fontMedium;
+        }
+        span {
+            font-size: $smallFontSize;
+            color: $textColorLight;
+        }
+    }
+
+    &__content {
+        background-color: $inputColor;
+        border-radius: .5rem;
+        padding: .75rem 1rem .25rem;
+        border: 1px solid $firstColor;
+        label {
+            font-size: $smallerFontSize;
+            color: $firstColor;
+        }
+        input,textarea{
+            width: 100%;
+            background-color:$textColor;
+            
+            color: $firstColor;
+            font-family: $bodyFont;
+            font-size: $normalFontSize;
+            border: none;
+            outline: none;
+            padding: .25rem .5rem .5rem 0;
+        }
+    }
+}
